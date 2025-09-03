@@ -1,21 +1,21 @@
 // Custom collection of movies (only title and video manually defined)
 // To add a series, use same title for multiple entries
 const myMovies = [
-    { title: "John Wick: Chapter 1", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "John Wick: Chapter 2", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "John Wick: Chapter 3", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "John Wick: Chapter 4", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Transformers", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Transformers: Revenge of the Fallen", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Transformers: Dark of the Moon", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Transformers: Age of Extinction", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Transformers: The Last Knight", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Bumblebee", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
-    { title: "Transformers: Rise of the Beasts", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4" },
+    { title: "John Wick: Chapter 1", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "John Wick: Chapter 2", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "John Wick: Chapter 3", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "John Wick: Chapter 4", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Transformers", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Transformers: Revenge of the Fallen", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Transformers: Dark of the Moon", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Transformers: Age of Extinction", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Transformers: The Last Knight", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Bumblebee", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
+    { title: "Transformers: Rise of the Beasts", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
     // Example series: Fast & Furious with custom episode labels
-    { title: "Fast & Furious", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4", label: "Episode 1 Part 1" },
-    { title: "Fast & Furious", video: "https://pub-f788ca5c0b0d4767a6a0e5bd97455aad.r2.dev/hbd.mp4", label: "Episode 1 Part 2" },
-    { title: "Snowden", video: "https://d-s.io/e/m2d69qqdysnj" },
+    { title: "Fast & Furious", video: "YjfM2RkAZ0/casfWfq_clean.mkv", label: "Episode 1 Part 1" },
+    { title: "Fast & Furious", video: "YjfM2RkAZ0/casfWfq_clean.mkv", label: "Episode 1 Part 2" },
+    { title: "Snowden", video: "YjfM2RkAZ0/casfWfq_clean.mkv" },
     // add more movies here: { title: "Movie Title", video: "video_url.mp4", label: "Custom Label" }
 ];
 
