@@ -1,0 +1,26 @@
+body {
+  background-color: #111;
+  color: #fff;
+}
+.navbar {
+  background-color: #222;
+}
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  cursor: pointer;
+}
+.card img {
+  height: 240px;
+  object-fit: cover;
+}
+.movie-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

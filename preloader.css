@@ -1,0 +1,64 @@
+/* Modern preloader styles for Mubiee 4.0 */
+.preloader-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #111;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preloader-logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 24px;
+  animation: logo-bounce 1.2s infinite cubic-bezier(.5, 1.5, .5, 1);
+}
+
+@keyframes logo-bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-24px);
+  }
+}
+
+.preloader-spinner {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #222;
+  border-top: 5px solid #2196f3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.preloader-text {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-top: 18px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  opacity: 0.8;
+}
