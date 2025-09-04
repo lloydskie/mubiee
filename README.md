@@ -12,7 +12,7 @@ A simple school project for browsing and watching a custom collection of movies.
 - Responsive design using Bootstrap
 - Easy to add new movies in `script.js`
 - Movie details and posters from TMDB (The Movie Database)
-- Video streams are fetched from external servers (not Cloudflare R2)
+- Video streams are fetched from external servers
 - Hosted on GitHub Pages for fast, free static hosting
 
 ## How to use
